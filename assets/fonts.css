@@ -1,0 +1,43 @@
+/* https://fontlibrary.org/face/grundschrift */
+
+@font-face {
+    font-family: 'GrundschriftBold';
+    src: url('fonts/GrundschriftBold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GrundschriftKontur';
+    src: url('fonts/GrundschriftKontur.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GrundschriftLight';
+    src: url('fonts/GrundschriftLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GrundschriftNormal';
+    src: url('fonts/GrundschriftNormal.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GrundschriftPunkt';
+    src: url('fonts/GrundschriftPunkt.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GrundschriftRegular';
+    src: url('fonts/GrundschriftRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

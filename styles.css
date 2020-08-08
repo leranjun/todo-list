@@ -1,0 +1,110 @@
+@import url("assets/fonts.css");
+
+* {
+    font-family: "GrundschriftRegular", cursive;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+html {
+    font-size: x-large;
+}
+
+#window {
+    margin: 15px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.3);
+}
+
+#pin-left, #pin-right {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    background-size: cover;
+}
+
+#pin-left {
+    background-image: url("assets/pin-left.png");
+    background-position: left top;
+    left: 5px;
+}
+
+#pin-right {
+    background-image: url("assets/pin-right.png");
+    background-position: right top;
+    right: 5px;
+}
+
+h1 {
+    font-family: 'GrundschriftBold', cursive;
+}
+
+header, main, footer {
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto 10px;
+}
+
+footer {
+    text-align: right;
+    color: gray;
+    font-size: 0.7em;
+}
+
+input {
+    font-size: 1em;
+}
+
+input[type="text"] {
+    padding: 0.5em 0.5em;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    border: medium solid #555;
+    margin-right: 0.5em;
+}
+
+input[type="checkbox"]:checked {
+    background: lawngreen;
+}
+
+button {
+    background: dodgerblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#todo-list {
+    margin: 0 auto;
+    word-wrap: break-word;
+}
+
+#todo-list td {
+    text-align: left;
+    user-select: text;
+}
+
+.thead.border {
+    border-bottom: medium solid gray;
+}
+
+.tbody.border {
+    border-bottom: thin solid gray;
+}
+
+#todo-list-container {
+    margin-top: 1em;
+}
